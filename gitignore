@@ -1,0 +1,84 @@
+# ============================================================
+#   .gitignore — Natasha Cruz Portfolio 🌸
+# ============================================================
+
+# ---- Sistema Operativo ----
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.directory
+
+# ---- Editores de código ----
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (WebStorm, etc.)
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+\#*\#
+
+# ---- Logs y temporales ----
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+
+# ---- Carpetas de dependencias ----
+node_modules/
+bower_components/
+
+# ---- Variables de entorno ----
+.env
+.env.local
+.env.*.local
+
+# ---- Archivos de build / dist ----
+dist/
+build/
+out/
+
+# ---- Archivos comprimidos ----
+*.zip
+*.rar
+*.tar.gz
+*.7z
+
+# ---- Imágenes de trabajo / borradores ----
+# (descomenta si no quieres subir tus PSD/CSP originales)
+# *.psd
+# *.clip
+# *.cdr
+# *.ai
+
+# ---- Thumbnails de imágenes ----
+Thumbs.db:encdata
+
+# ---- Notas personales ----
+notas.txt
+TODO.txt
+borrador*.txt
